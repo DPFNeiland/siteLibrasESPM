@@ -1,0 +1,11 @@
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+
+.chip {
+  padding: 4px 13px; border-radius: 99px;
+  font-size: .74rem; font-weight: 600;
+  border: 1.5px solid #E2E8F0;
+  background: #F8FAFC; color: #64748B;
+  transition: transform .14s, background .14s, border-color .14s, color .14s;
+  font-family: inherit;
+}
+.chip:hover { transform: scale(1.04); }

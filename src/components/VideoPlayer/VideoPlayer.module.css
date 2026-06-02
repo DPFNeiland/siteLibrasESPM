@@ -1,0 +1,38 @@
+.player {
+  width: 100%;
+  background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #020617;
+  object-fit: cover;
+}
+
+.fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 24px;
+  text-align: center;
+  color: #e2e8f0;
+}
+
+.fallbackTitle {
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.fallbackText {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: rgba(226, 232, 240, 0.7);
+}

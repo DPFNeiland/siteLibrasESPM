@@ -1,0 +1,27 @@
+/* ── Variáveis globais ── */
+:root {
+  --blue:      #1A6BFF;
+  --blue-dark: #1558E0;
+  --text:      #0F172A;
+  --muted:     #64748B;
+  --border:    #E8EDF3;
+  --bg:        #fff;
+  --radius:    10px;
+  --font:      'Inter', sans-serif;
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body   { font-family: var(--font); background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+img    { display: block; }
+button { font-family: inherit; cursor: pointer; }
+a      { text-decoration: none; color: inherit; }
+
+/* ── Animações globais ── */
+@keyframes fadeUp  { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes fadeIn  { from { opacity: 0; } to { opacity: 1; } }
+@keyframes scaleUp { from { opacity: 0; transform: scale(.95); } to { opacity: 1; transform: none; } }
+@keyframes ping    {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(26,107,255,.55); }
+  50%       { box-shadow: 0 0 0 8px rgba(26,107,255,0); }
+}

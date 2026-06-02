@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Media workflow
+# Keep only optimized delivery files under public/videos.
+# Ignore raw exports and working files.
+public/videos/raw/
+src/assets/videos/raw/
+*.mov
+*.mkv
+*.avi
+*.m4v
+*.flv
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

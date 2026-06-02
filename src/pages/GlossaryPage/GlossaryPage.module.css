@@ -1,0 +1,32 @@
+.breadcrumbWrap { margin-bottom: 12px; }
+
+.header  { margin-bottom: 24px; }
+.title   { font-size: 2rem; font-weight: 800; color: var(--text); line-height: 1.2; margin-bottom: 8px; }
+.subtitle{ font-size: .85rem; color: #64748B; line-height: 1.68; max-width: 490px; }
+.subtitleLink { color: #1A6BFF; text-decoration: underline; font-weight: 500; }
+
+.toolbar { margin-bottom: 22px; }
+
+/* Grade de cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.gridExtra { margin-top: 16px; }
+
+@media (max-width: 800px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 490px) { .grid { grid-template-columns: 1fr; } }
+
+/* Empty state */
+.empty      { grid-column: 1 / -1; text-align: center; padding: 52px 0; color: #94A3B8; animation: fadeUp .3s ease; }
+.emptyIcon  { font-size: 2.4rem; margin-bottom: 10px; }
+.emptyTitle { font-size: .98rem; font-weight: 700; margin-bottom: 4px; }
+.emptySub   { font-size: .83rem; }
+
+/* Footer */
+.footer {
+  margin-top: 56px; padding-top: 22px;
+  border-top: 1px solid #EEF2F7;
+  text-align: center; color: #CBD5E1; font-size: .74rem;
+}

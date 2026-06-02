@@ -1,0 +1,26 @@
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid #EEF2F7;
+  height: 54px; padding: 0 32px;
+  display: flex; align-items: center; gap: 10px;
+}
+
+.brand { display: flex; align-items: center; gap: 9px; }
+
+.logo {
+  width: 30px; height: 30px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #1A6BFF, #7C3AED);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .9rem;
+}
+
+.name { font-weight: 800; font-size: .93rem; color: var(--text); }
+
+.tag {
+  margin-left: auto;
+  font-size: .72rem; color: #94A3B8;
+  background: #F1F5F9;
+  padding: 3px 10px; border-radius: 99px;
+}

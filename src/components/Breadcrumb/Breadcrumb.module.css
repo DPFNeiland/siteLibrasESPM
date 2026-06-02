@@ -1,0 +1,6 @@
+.list  { list-style: none; display: flex; gap: 5px; align-items: center; font-size: .76rem; }
+.item  { display: flex; align-items: center; gap: 5px; }
+.link  { color: #1A6BFF; font-weight: 500; }
+.link:hover { text-decoration: underline; }
+.sep   { color: #CBD5E1; }
+.active{ color: #1A6BFF; font-weight: 700; }

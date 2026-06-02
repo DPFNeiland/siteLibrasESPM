@@ -1,0 +1,26 @@
+.play {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #1A6BFF;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: ping 2.8s infinite;
+  transition: transform .16s;
+  flex-shrink: 0;
+}
+
+.play:hover { transform: scale(1.16); }
+.play:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+.large {
+  width: 58px;
+  height: 58px;
+}
+
+@keyframes ping {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(26,107,255,.55); }
+  50%       { box-shadow: 0 0 0 8px rgba(26,107,255,0); }
+}
